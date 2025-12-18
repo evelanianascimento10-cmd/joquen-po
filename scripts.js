@@ -31,7 +31,7 @@ const playTheGame = (human, machine) => {
         (human === 'scissors' && machine === 'paper') 
     ) {
         humanScoreNumber++
-        humanScore.innerHTML = 
+        humanScore.innerHTML = humanScoreNumber
         result.innerHTML = "Você ganhou!"
     } else {
         machineScoreNumber++
